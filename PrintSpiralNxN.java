@@ -1,4 +1,4 @@
-public class PrintSpiral{
+public class PrintSpiralNxN{
     public static void printSpiralForm(int[][] a, int length){
         for( int i = 0 , j = length-1 ; i < j ; i++ , j-- ){
             for( int k = i ; k < j ; k++ ){
