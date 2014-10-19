@@ -1,4 +1,4 @@
-public class MergeSortedArrays{
+public class MergeTwoSortedArrays{
 	public static int[] merge(int[] a, int[] b){
 		int[] answer = new int[a.length + b.length];
 		int i=0, j=0, k=0;
