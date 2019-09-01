@@ -14,7 +14,6 @@
 */
 
 public class ComputeSum{
-
     public static int sum(int a){
         if((a / 10) > 0){
             return (a % 10) + sum(a / 10);
